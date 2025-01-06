@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+ <link rel="stylesheet" href="custom.css">
+<body>
+
+<h1>Welcome to the Password Generator!</h1>
+<p>Please us the drop down to select the strength of your preffered password. If you wish you can also save to file with the website name to assit in organization.</p>
+
+<label for="strength">Please choose a password strength!</label> 
+    <select name="strength" id="strength"> 
+        <option value="Defult">Defult</option> 
+        <option value="Stronger">Stronger</option> 
+        <option value="Ridiculous">Ridiculous</option> 
+ 
+    </select>
+
+    <form>
+        <div>
+          <label>
+            <input type="checkbox" /> Would you like to save to a file?
+          </label>
+        </div>
+      </form>
+
+      <form action="/action_page.php">
+        <label for="fname">Name of lile:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <form>
+        <div>
+          <label>
+            <input type="checkbox" /> Would you like to inclue the name of your program for better organization?
+          </label>
+        </div>
+      </form>
+
+      <form action="/action_page.php">
+        <label for="fname">Name of Program:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+
+</body>
+</html>
